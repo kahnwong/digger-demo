@@ -6,6 +6,9 @@ resource "random_string" "random" {
 resource "random_uuid" "uuid" {
 }
 
+resource "random_uuid" "uuid2" {
+}
+
 
 resource "aws_lb" "test" {
   name               = "test-lb-tf"
