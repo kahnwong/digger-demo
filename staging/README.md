@@ -26,6 +26,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| s3\_endpoint | n/a | `string` | n/a | yes |
 | string\_length | n/a | `number` | `40` | no |
 
 ## Outputs
