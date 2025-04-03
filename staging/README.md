@@ -3,12 +3,15 @@
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| aws | 5.93.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
+| aws | 5.93.0 |
 | random | 3.7.1 |
 
 ## Modules
@@ -19,6 +22,7 @@ No modules.
 
 | Name | Type |
 |------|------|
+| [aws_lb.test](https://registry.terraform.io/providers/hashicorp/aws/5.93.0/docs/resources/lb) | resource |
 | [random_string.random](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/string) | resource |
 | [random_uuid.uuid](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/uuid) | resource |
 

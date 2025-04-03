@@ -5,3 +5,12 @@ resource "random_string" "random" {
 
 resource "random_uuid" "uuid" {
 }
+
+
+resource "aws_lb" "test" {
+  name               = "test-lb-tf"
+  internal           = false
+  load_balancer_type = "application"
+  security_groups    = ["foo"]
+  subnets            = ["bar"]
+}
