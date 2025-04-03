@@ -9,6 +9,10 @@
 5. Create PR containing terraform project
 6. If plans successfully and is to your liking, add comment `digger apply` in the PR
 
+## Notes
+
+Apply gha secrets via `gh secret set -f .env.gha`
+
 ## Refs
 
 - <https://docs.digger.dev/ce/self-host/deploy-docker-compose>
