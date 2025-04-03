@@ -1,3 +1,4 @@
 projects:
   - name: staging
     dir: staging
+    opentofu: true
