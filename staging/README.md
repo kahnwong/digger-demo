@@ -20,6 +20,7 @@ No modules.
 | Name | Type |
 |------|------|
 | [random_string.random](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/string) | resource |
+| [random_uuid.uuid](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/uuid) | resource |
 
 ## Inputs
 
@@ -32,4 +33,5 @@ No modules.
 | Name | Description |
 |------|-------------|
 | random\_string | n/a |
+| random\_uuid | n/a |
 <!-- END_TF_DOCS -->
